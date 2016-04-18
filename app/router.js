@@ -9,6 +9,8 @@ const Router = Ember.Router.extend({
 });
 
 Router.map(function() {
+  this.route('about');
+  this.route('contact');
 });
 
 //makes the Router variable defined in this file available to other parts of the app.
